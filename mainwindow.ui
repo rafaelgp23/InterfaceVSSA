@@ -207,9 +207,6 @@ border-right: white</string>
 border-right: white</string>
      </property>
     </widget>
-    <zorder>verticalWidget</zorder>
-    <zorder>widget</zorder>
-    <zorder>label_4</zorder>
    </widget>
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
@@ -282,7 +279,7 @@ border-top: 3px solid black;</string>
           <widget class="QWidget" name="horizontalLayoutWidget">
            <property name="geometry">
             <rect>
-             <x>80</x>
+             <x>130</x>
              <y>30</y>
              <width>581</width>
              <height>151</height>
@@ -403,8 +400,6 @@ border-top: 3px solid black;</string>
            </layout>
           </widget>
          </widget>
-         <zorder>frame_5</zorder>
-         <zorder>label_4</zorder>
         </widget>
         <widget class="QWidget" name="RectifyImage">
          <widget class="QLabel" name="label_5">
