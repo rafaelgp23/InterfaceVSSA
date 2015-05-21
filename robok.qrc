@@ -1,5 +1,6 @@
 <RCC>
-    <qresource prefix="/new/prefix1">
-        <file>robok.png</file>
+    <qresource prefix="/Resources">
+        <file>Resources/robok.png</file>
+        <file>Resources/verismal.png</file>
     </qresource>
 </RCC>
