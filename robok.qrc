@@ -1,6 +1,7 @@
 <RCC>
-    <qresource prefix="/Resources">
-        <file>Resources/robok.png</file>
-        <file>Resources/verismal.png</file>
+    <qresource prefix="/">
+        <file>resources/fieldAdjust.png</file>
+        <file>resources/rectifyImage.jpg</file>
+        <file>resources/robokLogo.png</file>
     </qresource>
 </RCC>
