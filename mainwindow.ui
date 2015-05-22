@@ -23,7 +23,7 @@
       <x>0</x>
       <y>0</y>
       <width>241</width>
-      <height>771</height>
+      <height>551</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -211,15 +211,16 @@ border-right: white</string>
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>0</x>
       <y>550</y>
-      <width>1131</width>
+      <width>1361</width>
       <height>221</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);
-border-top: 3px solid black;</string>
+border-top: 3px solid black;
+border-left: 2px solid black</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -232,13 +233,16 @@ border-top: 3px solid black;</string>
       <rect>
        <x>-1</x>
        <y>-1</y>
-       <width>1121</width>
+       <width>991</width>
        <height>221</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="QStackedWidget" name="stackedWidget">
+        <property name="styleSheet">
+         <string notr="true">border-left: 2px rgb(0, 0, 0);</string>
+        </property>
         <property name="currentIndex">
          <number>4</number>
         </property>
@@ -249,8 +253,8 @@ border-top: 3px solid black;</string>
          <widget class="QWidget" name="horizontalLayoutWidget">
           <property name="geometry">
            <rect>
-            <x>160</x>
-            <y>30</y>
+            <x>240</x>
+            <y>10</y>
             <width>581</width>
             <height>181</height>
            </rect>
@@ -492,14 +496,14 @@ border-top: 3px solid black;</string>
              <property name="fieldGrowthPolicy">
               <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
              </property>
-             <item row="1" column="0">
+             <item row="0" column="0">
               <widget class="QLabel" name="label_13">
                <property name="text">
                 <string>Brightness</string>
                </property>
               </widget>
              </item>
-             <item row="1" column="1">
+             <item row="0" column="1">
               <widget class="QSlider" name="horizontalSlider_4">
                <property name="styleSheet">
                 <string notr="true">background-color: rgb(215, 211, 208);</string>
@@ -509,7 +513,7 @@ border-top: 3px solid black;</string>
                </property>
               </widget>
              </item>
-             <item row="2" column="1">
+             <item row="1" column="1">
               <spacer name="horizontalSpacer_9">
                <property name="orientation">
                 <enum>Qt::Horizontal</enum>
@@ -522,14 +526,14 @@ border-top: 3px solid black;</string>
                </property>
               </spacer>
              </item>
-             <item row="3" column="0">
+             <item row="2" column="0">
               <widget class="QLabel" name="label_14">
                <property name="text">
                 <string>Saturation</string>
                </property>
               </widget>
              </item>
-             <item row="3" column="1">
+             <item row="2" column="1">
               <widget class="QSlider" name="horizontalSlider_5">
                <property name="styleSheet">
                 <string notr="true">background-color: rgb(215, 211, 208);</string>
@@ -539,7 +543,7 @@ border-top: 3px solid black;</string>
                </property>
               </widget>
              </item>
-             <item row="4" column="1">
+             <item row="3" column="1">
               <spacer name="horizontalSpacer_10">
                <property name="orientation">
                 <enum>Qt::Horizontal</enum>
@@ -552,14 +556,14 @@ border-top: 3px solid black;</string>
                </property>
               </spacer>
              </item>
-             <item row="5" column="0">
+             <item row="4" column="0">
               <widget class="QLabel" name="label_15">
                <property name="text">
                 <string>Contrast</string>
                </property>
               </widget>
              </item>
-             <item row="5" column="1">
+             <item row="4" column="1">
               <widget class="QSlider" name="horizontalSlider_6">
                <property name="styleSheet">
                 <string notr="true">background-color: rgb(215, 211, 208);</string>
@@ -569,19 +573,6 @@ border-top: 3px solid black;</string>
                </property>
               </widget>
              </item>
-             <item row="0" column="1">
-              <spacer name="horizontalSpacer_7">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
             </layout>
            </item>
           </layout>
@@ -589,15 +580,15 @@ border-top: 3px solid black;</string>
          <widget class="QLabel" name="label_4">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>81</width>
-            <height>31</height>
+            <x>30</x>
+            <y>70</y>
+            <width>151</width>
+            <height>61</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>26</pointsize>
            </font>
           </property>
           <property name="text">
@@ -612,15 +603,15 @@ border-top: 3px solid black;</string>
          <widget class="QLabel" name="label_5">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>131</width>
-            <height>31</height>
+            <x>20</x>
+            <y>50</y>
+            <width>201</width>
+            <height>81</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>22</pointsize>
            </font>
           </property>
           <property name="text">
@@ -630,10 +621,10 @@ border-top: 3px solid black;</string>
          <widget class="QWidget" name="widget_3" native="true">
           <property name="geometry">
            <rect>
-            <x>580</x>
-            <y>0</y>
-            <width>261</width>
-            <height>191</height>
+            <x>570</x>
+            <y>10</y>
+            <width>241</width>
+            <height>171</height>
            </rect>
           </property>
           <property name="styleSheet">
@@ -644,8 +635,8 @@ border-color: white;</string>
          <widget class="QWidget" name="horizontalLayoutWidget_6">
           <property name="geometry">
            <rect>
-            <x>200</x>
-            <y>50</y>
+            <x>250</x>
+            <y>40</y>
             <width>291</width>
             <height>31</height>
            </rect>
@@ -660,6 +651,9 @@ border-color: white;</string>
            </item>
            <item>
             <widget class="QComboBox" name="comboBox_4">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(246, 244, 242);</string>
+             </property>
              <item>
               <property name="text">
                <string>A</string>
@@ -687,11 +681,14 @@ border-color: white;</string>
          <widget class="QPushButton" name="pushButton_9">
           <property name="geometry">
            <rect>
-            <x>200</x>
-            <y>120</y>
+            <x>250</x>
+            <y>110</y>
             <width>99</width>
             <height>27</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(206, 203, 200);</string>
           </property>
           <property name="text">
            <string>cancel</string>
@@ -700,11 +697,14 @@ border-color: white;</string>
          <widget class="QPushButton" name="pushButton_10">
           <property name="geometry">
            <rect>
-            <x>390</x>
-            <y>120</y>
+            <x>440</x>
+            <y>110</y>
             <width>99</width>
             <height>27</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(206, 203, 200);</string>
           </property>
           <property name="text">
            <string>save</string>
@@ -718,15 +718,15 @@ border-color: white;</string>
          <widget class="QLabel" name="label_6">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>91</width>
-            <height>31</height>
+            <x>40</x>
+            <y>50</y>
+            <width>161</width>
+            <height>61</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>26</pointsize>
            </font>
           </property>
           <property name="text">
@@ -736,8 +736,8 @@ border-color: white;</string>
          <widget class="QPushButton" name="pushButton_5">
           <property name="geometry">
            <rect>
-            <x>540</x>
-            <y>110</y>
+            <x>670</x>
+            <y>90</y>
             <width>111</width>
             <height>27</height>
            </rect>
@@ -752,8 +752,8 @@ border-color: white;</string>
          <widget class="QPushButton" name="pushButton_6">
           <property name="geometry">
            <rect>
-            <x>540</x>
-            <y>70</y>
+            <x>670</x>
+            <y>50</y>
             <width>111</width>
             <height>27</height>
            </rect>
@@ -769,8 +769,8 @@ border-color: white;</string>
          <widget class="QWidget" name="horizontalLayoutWidget_4">
           <property name="geometry">
            <rect>
-            <x>120</x>
-            <y>40</y>
+            <x>250</x>
+            <y>20</y>
             <width>401</width>
             <height>121</height>
            </rect>
@@ -894,15 +894,15 @@ border-color: white;</string>
          <widget class="QLabel" name="label_7">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>111</width>
-            <height>31</height>
+            <x>10</x>
+            <y>50</y>
+            <width>211</width>
+            <height>71</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>26</pointsize>
            </font>
           </property>
           <property name="text">
@@ -912,10 +912,10 @@ border-color: white;</string>
          <widget class="QWidget" name="widget_2" native="true">
           <property name="geometry">
            <rect>
-            <x>580</x>
-            <y>0</y>
-            <width>261</width>
-            <height>201</height>
+            <x>590</x>
+            <y>10</y>
+            <width>211</width>
+            <height>161</height>
            </rect>
           </property>
           <property name="styleSheet">
@@ -926,8 +926,8 @@ border-color: white;</string>
          <widget class="QWidget" name="horizontalLayoutWidget_5">
           <property name="geometry">
            <rect>
-            <x>180</x>
-            <y>40</y>
+            <x>290</x>
+            <y>20</y>
             <width>261</width>
             <height>61</height>
            </rect>
@@ -942,6 +942,9 @@ border-color: white;</string>
            </item>
            <item>
             <widget class="QComboBox" name="comboBox_3">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(246, 244, 242);</string>
+             </property>
              <item>
               <property name="text">
                <string>A</string>
@@ -974,11 +977,14 @@ border-color: white;</string>
          <widget class="QPushButton" name="pushButton_7">
           <property name="geometry">
            <rect>
-            <x>340</x>
-            <y>130</y>
+            <x>450</x>
+            <y>110</y>
             <width>99</width>
             <height>27</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(221, 218, 217);</string>
           </property>
           <property name="text">
            <string>save</string>
@@ -987,11 +993,14 @@ border-color: white;</string>
          <widget class="QPushButton" name="pushButton_8">
           <property name="geometry">
            <rect>
-            <x>180</x>
-            <y>130</y>
+            <x>290</x>
+            <y>110</y>
             <width>99</width>
             <height>27</height>
            </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(221, 218, 217);</string>
           </property>
           <property name="text">
            <string>cancel</string>
@@ -1005,15 +1014,15 @@ border-color: white;</string>
          <widget class="QLabel" name="label_8">
           <property name="geometry">
            <rect>
-            <x>0</x>
-            <y>0</y>
-            <width>61</width>
-            <height>31</height>
+            <x>60</x>
+            <y>50</y>
+            <width>121</width>
+            <height>71</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <pointsize>14</pointsize>
+            <pointsize>26</pointsize>
            </font>
           </property>
           <property name="text">
@@ -1023,8 +1032,8 @@ border-color: white;</string>
          <widget class="QWidget" name="gridLayoutWidget">
           <property name="geometry">
            <rect>
-            <x>170</x>
-            <y>20</y>
+            <x>260</x>
+            <y>10</y>
             <width>491</width>
             <height>162</height>
            </rect>
@@ -1135,7 +1144,11 @@ border-color: white;</string>
               </widget>
              </item>
              <item>
-              <widget class="QComboBox" name="comboBox_5"/>
+              <widget class="QComboBox" name="comboBox_5">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(246, 244, 242);</string>
+               </property>
+              </widget>
              </item>
              <item>
               <layout class="QHBoxLayout" name="horizontalLayout_12">
@@ -1266,6 +1279,9 @@ border-color: white;</string>
            </item>
            <item row="1" column="0">
             <widget class="QPushButton" name="pushButton_11">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(212, 209, 205);</string>
+             </property>
              <property name="text">
               <string>Back</string>
              </property>
@@ -1273,6 +1289,9 @@ border-color: white;</string>
            </item>
            <item row="1" column="1">
             <widget class="QPushButton" name="pushButton_12">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(212, 209, 205);</string>
+             </property>
              <property name="text">
               <string>set pos</string>
              </property>
@@ -1280,6 +1299,9 @@ border-color: white;</string>
            </item>
            <item row="1" column="2">
             <widget class="QPushButton" name="pushButton_13">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(212, 209, 205);</string>
+             </property>
              <property name="text">
               <string>GO!!</string>
              </property>
@@ -1287,6 +1309,9 @@ border-color: white;</string>
            </item>
            <item row="1" column="3">
             <widget class="QPushButton" name="pushButton_14">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(212, 209, 205);</string>
+             </property>
              <property name="text">
               <string>Power Off</string>
              </property>
