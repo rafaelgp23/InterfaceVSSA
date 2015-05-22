@@ -792,7 +792,7 @@ border-color: white;</string>
                </property>
               </widget>
              </item>
-             <item alignment="Qt::AlignLeft">
+             <item>
               <widget class="QRadioButton" name="radioButton_7">
                <property name="text">
                 <string>Yellow</string>
@@ -1044,6 +1044,9 @@ border-color: white;</string>
                <property name="text">
                 <string>Left</string>
                </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
               </widget>
              </item>
              <item>
@@ -1094,6 +1097,9 @@ border-color: white;</string>
               <widget class="QRadioButton" name="radioButton_14">
                <property name="text">
                 <string>Blue</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
                </property>
               </widget>
              </item>
@@ -1180,12 +1186,18 @@ border-color: white;</string>
                  <property name="text">
                   <string>1</string>
                  </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
                 </widget>
                </item>
                <item>
                 <widget class="QCheckBox" name="checkBox_2">
                  <property name="text">
                   <string>2</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
                  </property>
                 </widget>
                </item>
@@ -1229,6 +1241,9 @@ border-color: white;</string>
                 <widget class="QCheckBox" name="checkBox_7">
                  <property name="text">
                   <string>Ball</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
                  </property>
                 </widget>
                </item>
